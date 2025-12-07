@@ -1,17 +1,13 @@
 # Get editor completions based on the config schema
 "$schema" = 'https://starship.rs/config-schema.json'
 
-palette = "colors"
-
-[palettes.colors]
-primary = '{{colors.primary.default.hex}}'
-tertiary = '{{colors.tertiary.default.hex}}'
-error = '{{colors.error_container.default.hex}}'
+# The reason there's no palette is because we let it inherit the terminal colors instead,
+# this way prompt colors update immediately, there's no old colors hanging within terminal
 
 [character]
-success_symbol = "[❯](tertiary bold)"
+success_symbol = "[❯](cyan bold)"
 error_symbol = "[❯](red bold)"
-vimcmd_symbol = "[❮](tertiary bold)"
+vimcmd_symbol = "[❮](cyan bold)"
 
 [git_branch]
 style = "red bold"
@@ -20,7 +16,7 @@ symbol = " " # Nerd Font symbol
 
 [directory]
 truncation_length = 4
-style = "primary bold"
+style = "blue bold"
 
 read_only = " 󰌾" # Nerd Font symbol
 
