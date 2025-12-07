@@ -6,8 +6,8 @@
 
 [character]
 success_symbol = "[❯](cyan bold)"
-error_symbol = "[❯](red bold)"
-vimcmd_symbol = "[❮](cyan bold)"
+error_symbol =   "[❯](red bold)"
+vimcmd_symbol =  "[❮](cyan bold)"
 
 [git_branch]
 style = "red bold"
@@ -215,3 +215,4 @@ symbol = " "
 
 [zig]
 symbol = " "
+
