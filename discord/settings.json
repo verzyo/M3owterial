@@ -1,0 +1,4 @@
+{
+    "splashBackground": "{{colors.surface.default.rgb}}",
+    "splashTheming": true
+}
